@@ -1,0 +1,36 @@
+{
+  "name": "shreky_bot",
+  "version": "1.0.0",
+  "description": "Un (futuro) bot de telegram al que se le envía una foto y la devuelve con un shrek en ella",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguel-martinr/Shreky_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguel-martinr/Shreky_bot/issues"
+  },
+  "homepage": "https://github.com/miguel-martinr/Shreky_bot#readme",
+  "devDependencies": {
+    "@types/image-size": "^0.8.0",
+    "@types/merge-images": "^1.2.0",
+    "@types/node": "^15.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "canvas": "^2.8.0",
+    "eslint": "^7.27.0",
+    "eslint-config-google": "^0.14.0",
+    "fs": "^0.0.1-security",
+    "image-size": "^1.0.0",
+    "merge-images": "^2.0.0",
+    "node": "^16.1.0",
+    "telegraph": "^0.8.22",
+    "typescript": "^4.3.2"
+  }
+}
