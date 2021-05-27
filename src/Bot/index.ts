@@ -21,6 +21,7 @@ shrekyBot.on('photo', async (ctx) => {
     editor.shrekify(imgPath).then((shrekified) => {
       ctx.replyWithPhoto({source: saveImg(shrekified, './media/')});
       exec('rm ./media/received/*');
+      exec('rm ./media/*.png');
     });
     
   });  
